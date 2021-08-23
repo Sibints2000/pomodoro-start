@@ -20,6 +20,7 @@ window = Tk()
 window.title("Pomorodo")
 
 canvas = Canvas(width=200, height=224)
+PhotoImage(file="tomato.png")
 canvas.create_image(100, 112)
 
 
