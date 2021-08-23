@@ -1,4 +1,4 @@
-import tkinter
+from tkinter import *
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -17,3 +17,9 @@ LONG_BREAK_MIN = 20
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
+window.title("Pomorodo")
+
+
+
+
+window.mainloop()
