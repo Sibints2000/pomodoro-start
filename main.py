@@ -19,7 +19,8 @@ LONG_BREAK_MIN = 20
 window = Tk()
 window.title("Pomorodo")
 
-canvas = Canvas(width=)
+canvas = Canvas(width=200, height=224)
+
 
 
 window.mainloop()
