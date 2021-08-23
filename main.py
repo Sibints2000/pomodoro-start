@@ -20,7 +20,7 @@ window = Tk()
 window.title("Pomorodo")
 
 canvas = Canvas(width=200, height=224)
-
+canvas.create_image()
 
 
 window.mainloop()
