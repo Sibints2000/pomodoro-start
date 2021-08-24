@@ -53,6 +53,7 @@ def count_down(count):
         work_sessions = math.floor(reps/2)
         for _ in range(work_sessions):
 
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomodoro")
