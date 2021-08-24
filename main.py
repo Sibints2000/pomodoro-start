@@ -13,7 +13,12 @@ LONG_BREAK_MIN = 20
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 
+
+def start_timer():
+
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
+
+
 def count_down(count):
     canvas.itemconfig(timer_text, text=count)
     if count > 0:
@@ -24,7 +29,6 @@ def count_down(count):
 window = Tk()
 window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
-
 
 title_label = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 35))
 title_label.grid(column=1, row=0)
