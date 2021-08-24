@@ -25,7 +25,7 @@ window.config(padx=100, pady=50, bg=YELLOW)
 def say_something(thing):
     print(thing)
 
-window.after(1000, say_something())
+window.after()
 
 title_label = Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 35))
 title_label.grid(column=1, row=0)
