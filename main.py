@@ -21,7 +21,7 @@ window.title("Pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
 title_label = Label(text="Timer", fg=GREEN)
-
+title_label.grid(column=1, row=0)
 
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 tomato_img = PhotoImage(file="tomato.png")
