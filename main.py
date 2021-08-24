@@ -23,7 +23,6 @@ def start_timer():
     long_break_sec = LONG_BREAK_MIN * 60
 
 
-
     count_down(5 * 60)
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
