@@ -15,7 +15,9 @@ LONG_BREAK_MIN = 20
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
-    window.after(1000, count_down, count - 1)
+    print(count)
+    if count > 0:
+        window.after(1000, count_down, count - 1)
 
 
 # ---------------------------- UI SETUP ------------------------------- #
