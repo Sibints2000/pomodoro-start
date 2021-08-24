@@ -28,6 +28,8 @@ def start_timer():
         count_down(long_break_sec)
     elif reps % 2 ==0:
         count_down(short_break_sec)
+    else:
+        count_down(work_sec)
 
     count_down(5 * 60)
 
