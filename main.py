@@ -55,6 +55,7 @@ def count_down(count):
             marks += "✔"
         check_marks.config(text=marks)
 
+
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomodoro")
