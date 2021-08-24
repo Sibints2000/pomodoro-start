@@ -26,4 +26,8 @@ canvas.create_image(100, 112, image=tomato_img)
 canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 canvas.pack()
 
+
+
+
+
 window.mainloop()
